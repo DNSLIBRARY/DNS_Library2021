@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="/pics/favicon.ico" sizes="16x16">
+
+<body id="myPage">
+
+
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme-d2 w3-left-align">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="/Home.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Team Container -->
+    <div class="w3-container w3-padding-64 w3-center" id="team">
+        <h2>OUR TEAM</h2>
+        <p>Meet the team</p>
+
+        <div class="w3-row"><br>
+
+            <div class="w3-quarter">
+                <img src="pics/shadib.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>Shadib Mahmud</h3>
+                <p>Front End Developer</p>
+            </div>
+
+            <div class="w3-quarter">
+                <img src="pics/audity.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>Audity Ghosh</h3>
+                <p>Front End Developer</p>
+            </div>
+
+            <div class="w3-quarter">
+                <img src="pics/images (1).png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>Kawshik Banerjee</h3>
+                <p>Boss man</p>
+            </div>
+
+            <div class="w3-quarter">
+                <img src="pics/images (1).png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>Neyamul Omy</h3>
+                <p>Fixer</p>
+            </div>
+
+        </div>
+        <div class="w3-row"><br>
+
+            <div class="w3-quarter">
+                <img src="pics/images (1).png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>Israt Jahan Samiha</h3>
+                <p>Drive Maintainance</p>
+            </div>
+
+            <div class="w3-quarter">
+                <img src="pics/images (1).png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>Jan Ringo</h3>
+                <p>Support</p>
+            </div>
+
+            <div class="w3-quarter">
+                <img src="pics/images (1).png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>Jan Ringo</h3>
+                <p>Boss man</p>
+            </div>
+
+            <div class="w3-quarter">
+                <img src="pics/images (1).png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>Jan Ringo</h3>
+                <p>Fixer</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script>
+        // Script for side navigation
+        function w3_open() {
+            var x = document.getElementById("mySidebar");
+            x.style.width = "300px";
+            x.style.paddingTop = "10%";
+            x.style.display = "block";
+        }
+
+        // Close side navigation
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
